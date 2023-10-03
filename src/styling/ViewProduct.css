@@ -1,0 +1,25 @@
+.ViewProduct {
+    border: 1px solid black;
+    width: 68%;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+  }
+  .ViewProduct > div {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: blue;
+    border-color: chocolate;
+    border-radius: 20px;
+  }
+  button:hover {
+    cursor: pointer;
+    opacity: 70%;
+  }
+  

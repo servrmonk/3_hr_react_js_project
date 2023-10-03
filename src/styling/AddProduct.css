@@ -1,0 +1,49 @@
+.form {
+    /* display: flex; */
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    width: 64%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .name {
+    /* border: 1px solid; */
+    padding: 2px;
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .input {
+    padding: 8px;
+    /* margin: auto; */
+    height: 18px;
+    width: 60%;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .size {
+    height: 20px;
+    width: 4%;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .AddProduct {
+    height: 40px;
+    width: 100px;
+    background-color: #5dadec;
+    border-radius: 20px;
+    color: black;
+    padding: 7px;
+    font-size: 13px;
+  }
+  .AddProduct:hover {
+    cursor: pointer;
+  }
+  
