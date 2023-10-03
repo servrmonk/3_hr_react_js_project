@@ -6,6 +6,7 @@ const Cart = (props) => {
 
   
   const total = selectedItems.reduce(
+    
     (accumulator, selectedItem) =>
       accumulator + parseFloat(selectedItem.product.price),
     0
